@@ -1,0 +1,18 @@
+﻿# IDE
+.vscode/
+.idea/
+# OS cruft
+Thumbs.db
+.DS_Store
+# Builds
+bin/
+obj/
+target/
+# Python/Node examples
+__pycache__/
+node_modules/
+# Secrets (do NOT commit actual keys)
+*.pem
+*.key
+*.p12
+.env
